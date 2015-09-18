@@ -1,0 +1,6 @@
+<Files *>
+AuthType WebAuth
+require user blatendr
+satisfy any
+order allow,deny
+</Files>
