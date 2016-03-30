@@ -1,0 +1,98 @@
+#head {
+  width: 100%;
+  margin: 5% auto;
+}
+
+#head h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 24pt;
+  margin-bottom: -1%;
+  padding: 12px 0px;
+  background-color: #9ACD32;
+  color: black;
+}
+
+
+#head a:visited, .change a:visited {
+    color: white;
+}
+
+#head h2 {
+  background-color: #9ACD32;
+  color: black;
+  width: 100%;
+  padding: 13px 0% 10px 0%;
+  margin-top: 4px;
+  font-size: 14pt;}
+
+html{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+  background-color: white;
+}
+
+h1{
+text-align: center;
+  width: 100%;
+  font-size: 24pt;
+  margin-bottom: -1%;
+  padding: 12px 0px;
+  background-color: #9ACD32;
+}
+
+h2{
+    width: 42%;
+    margin: auto;
+    text-align: center;
+    font-size: 18pt;
+}
+h3 {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 16pt;
+}
+
+h4 {
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1px;
+}
+
+
+
+p {
+    width: 42%;
+    margin: auto;
+        
+}
+.videoHeader{
+    clear: both;
+    margin-top: 11%;
+    margin-bottom:15px;
+}
+
+tr {
+  width: 50%;
+  text-align: center;
+}
+
+.change {
+   margin: 2% 10% 5% 10%;
+   padding: 5px;
+   border-radius: 25px;
+   background-color: #9ACD32;
+   border: thin solid black;}
+
+.change p{
+    width: 50%;
+    margin: 0% auto 2% auto;
+} 
+
+#Videos{
+    margin: auto;
+}

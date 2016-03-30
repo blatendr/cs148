@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+#nav {
+    display: none;
+}
+
+.flexslider .flexsliderwrapper {
+    display: none;
+}
+
+.flexslider .slides > li {
+    display: none;
+}
+
+.slides {
+    display: none;
+}
+
+.flex-control-nav {
+    display: none;
+}
+footer {
+	display: none;
+}
+
+header{
+    display: none;
+}
+
+#jobnav {
+    display:none;
+}
+
+
+/* 
+    Created on : Apr 18, 2015, 1:44:05 PM
+    Author     : joelledyer, jaime simmons
+*/
+

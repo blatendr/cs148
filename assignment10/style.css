@@ -1,0 +1,536 @@
+/* CSS created by Jaime Simmons */
+
+/*-----------------------------General Class Section--------------------------*/
+body{
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+}
+html {
+    background-color: black;
+}
+
+.firstLine {
+    text-indent: 3em;
+}
+
+/*-------------------------------header section-------------------------------*/
+header h1 {
+    padding: 0.8em 5.33333333%;  /* 48px / 900px */
+}
+
+#logo {
+    width: 100%;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+}
+/*--------------------------- nav section-------------------------------------*/
+/*article p{
+        padding: .5em 25% .5em 25%; dsfsdf 48px / 566pxsdf
+}*/
+
+article p{
+    padding-left: 2em;
+    padding-right:2em;
+}
+
+nav {
+    background: white;
+    width: auto;
+    text-align: center;
+    border:1px solid #ccc;
+    border-width:1px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 15px;
+    font-size: 14px;
+    position: relative;
+    color: #9ACD32;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {
+    color: darkgrey;
+}
+
+nav ul li a:hover:before {
+    width: 100%;
+}
+
+nav ul li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -25px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: black;
+    opacity: .6;
+}
+
+nav ul li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #9ACD32;
+    transition: width .25s;
+}
+
+nav ul li.last > a:after,
+nav ul li:last-child > a:after {
+    display: none;
+}
+
+nav ul li a.activePage {
+    width: 100%;
+    color: black;
+}
+
+#active a{
+    color: black;
+    border-bottom: .2em solid black;
+}
+
+
+/* ---------------------------------Main Page-------------------------------- */
+#main{
+    width: 85%; /* 900px / 960px */
+    border: 2px solid black;
+    text-align: center;
+}
+
+#mainarticle{
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+}
+
+h2, h2 a, h2 a:hover {
+    color: #39464E;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+
+}
+
+#jaimepic {
+    width: auto;
+    height: 100px;
+}
+
+/*---------------------------------Fitness Page (change all names here and on page)--------------------------------*/
+#interior{
+    width: 85%; /* 900px / 960px */
+    border: 2px solid black;
+    text-align: center;
+}
+
+#interiorarticle{
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+}
+
+h2, h2 a, h2 a:hover {
+    color: #39464E;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+
+}
+
+#interior #tableyo {
+    margin: auto;
+    width: 65%;
+    padding-bottom: 1.5em;
+    border-collapse: collapse;
+
+}
+
+#interior #tableyo table, td, th {
+    padding: 0.5em;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+#interior #tableyo th {
+    background: #9ACD32;
+    color: white;
+    width: 50%;
+    border: .25em solid lightgrey;
+    border-collapse: collapse;
+}
+
+#interior #tableyo td{
+    background: white;
+    color: black;
+    width: 50%;
+    border: .25em solid lightgrey;
+    border-collapse: collapse;
+    height: 2em;
+}
+
+
+
+/*---------------------------------Portfolio Page (dont need to change)----------------------------------*/
+#portfolio{
+    width: 85%; /* 900px / 960px */
+    border: 2px solid black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#portfolioarticle{
+    text-align: center;
+}
+
+h2, h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+h2, h2 a, h2 a:hover {
+    color: #39464E;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+
+}
+
+#portfolioarticle img {
+    border-radius: 20px;
+}
+
+
+#portfolioarticle .container {
+    height:150px;
+    width:150px;
+    position:relative;
+    display: inline-block;
+    padding: .5em;
+    margin: auto;
+    overflow: hidden;
+    clear: none;
+}
+
+.container .image {    
+    position:relative;
+    z-index:1;
+}
+
+.container .text {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+#job1 {
+    background-color: #eaf4d6;
+}
+
+#job2 {
+    background-color: #daedb6;
+}
+
+#job3 {
+    background-color: #c5e28a;
+}
+
+/* #job4 {
+    background-color: #b3d965;
+}
+
+#job5 {
+    background-color: #9cce35;
+} */
+
+
+/* --------------------------------Form Page -----------------------------------------------------------*/
+#form{
+    margin: auto;
+    width: 85%; /* 900px / 960px */
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#formarticle{
+    text-align: center;
+}
+
+fieldset{
+    clear: both;
+    border: 1px solid #517111;
+    font-family: Arial, sans-serif;
+
+}
+fieldset.buttons{
+    border: none;
+}
+
+fieldset.wrapper {
+    border: none;
+}
+
+fieldset.form {
+    border-top: #517111 .25em solid;
+    border-left:none;
+    border-bottom: none;
+    border-right: none;
+}
+
+fieldset.form legend {
+    font-size: 1.2em;
+    vertical-align: top;
+}
+
+fieldset.contact input{
+    width: 15em;
+    padding: .25em;
+}
+
+fieldset.wrapper legend {
+    color: #517111;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+fieldset.wrapper > legend {
+    /* i only want the first legend ie if it follows the class wrapper */
+    font-size: 2em;
+}
+
+fieldset.contact {
+    display: inline-block;
+    height: 8em;
+    text-align: left;
+    vertical-align: top;
+    width: 45%;
+}
+fieldset.checkbox {
+    display: inline-block;
+    height: 11em;
+    text-align: left;
+    vertical-align: top;
+    width: 45%;
+}
+fieldset.radio {
+    display: inline-block;
+    height: 8em;
+    text-align: left;
+    vertical-align: top;
+    width: 45%;
+}
+fieldset.lists {
+    display: inline-block;
+    height: 11em;
+    text-align: left;
+    vertical-align: top;
+    width: 45%;
+}
+
+fieldset.contact label {
+    margin-left: 2em;
+}
+
+fieldset.checkbox label {
+    margin-left: 2em;
+}
+
+fieldset.radio label {
+    margin-left: 2em;
+}
+
+fieldset.lists select {
+    margin-left: 2em;
+    background-color: #9cce37;
+    width: 15em;
+    border: 0 none;
+}
+
+/* minor data validation, we would still need to use php to be certain */
+
+fieldset.contact input:valid{
+    border: medium solid green;
+}
+
+fieldset.contact input:invalid{
+    border: medium solid red;
+}
+fieldset.contact input.mistake:valid{
+    border: medium solid red;
+}
+
+/***********************************************************************/
+
+label {
+    color: #517111;
+    font-size: .9em;
+    display: block;
+    padding: .2em;
+}
+
+label:hover {
+    background-color: lightgray;
+}
+
+span.required:after {
+    color: #000;
+    content: " Required *";
+}
+
+.mistake {
+    color: #fff;
+    background-color:#800;
+    border: thin solid #000;
+}
+
+#errors ol li{
+    color: #ff5555;
+}
+
+/*--------------------------------Contact Page--------------------------------*/
+#contact{
+    width: 85%; /* 900px / 960px */
+    border: 2px solid black;
+    text-align: center;
+}
+
+#contactarticle{
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+}
+
+h2, h2 a, h2 a:hover {
+    color: #39464E;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+    font-weight: 300;
+
+}
+#contactTable{
+    border: double black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#contactTable td{
+    width: 250px;
+    text-align:center;
+    font-family: Raleway,Arial,Tahoma,sans-serif;
+}
+
+#contactTable td:hover {
+    background-color: #9ACD32;
+}
+
+#contactTable a{
+    color: black;
+}
+
+#contactTable a:hover{
+    color:white;
+}
+
+
+/*-----Guarantee----*/
+
+#guarantee h2 {
+    font-size: 1.5em;
+
+}
+
+#guarantee p {
+    font-size: .85em;
+    line-height: .85em;
+
+}
+
+
+/*-------------------------------footer section-------------------------------*/
+footer {
+    clear: both;
+    background: -moz-linear-gradient(#ffffff, #9bcd34); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #9bcd34); /* Standard syntax (must be last) */
+    padding: 0.8em 5.33333333%;  /* 48px / 900px */
+    border-top: thin lightgray solid;
+}
+
+footer p{
+    text-align: center;
+    font-size:10pt;
+    line-height: 0px;
+    text-transform: uppercase;
+}
+
+/*----- other (change? initially #kellyarticle img)-----*/
+#jaimepic {
+    border-radius: 20px;
+    height: 100px;
+    width: auto;
+}
+
